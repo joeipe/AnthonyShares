@@ -9,7 +9,7 @@ namespace AnthonyShares.Sender
 {
     class SenderConsole
     {
-        static string ConnectionString = "Endpoint=sb://anthonydemo.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=sQf+VJHPxxH2/+PbGxUiSwoZIEZUVo1cwtZqJ5I8/Kg=";
+        static string ConnectionString = "";
         static string QueueName = "demoqueue";
 
         static void Main(string[] args)
